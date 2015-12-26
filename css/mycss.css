@@ -1,11 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #90EEC6;
+}
+
 #jqueryDiv, #velocityDiv{
     position: relative;
     width: 200px;
     height: 100px;
     color:white;
-    background-color: #33CD7F;
+    background-color: #1AA469;
     border-radius: 5px;
     text-align: center;
     font-family: 'Poiret One', cursive;
@@ -31,7 +37,7 @@ p{
 footer{
     font-family: 'Poiret One', cursive;
     font-size: 30px;
-    color: #33CD7F;
+    color: #1AA469;
     width: 50%;
     position: fixed;
     top: 65%; 
