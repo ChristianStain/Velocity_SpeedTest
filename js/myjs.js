@@ -8,7 +8,7 @@ $(document).ready(function() {
         $('#velocityDiv').velocity({marginLeft: 700}, {duration: 3000, easing: "linear"});  
     });
     
-    $('#Play').click(function (){
+    $('#Both').click(function (){
         $('#jqueryDiv').animate({marginLeft: 700}, {duration: 3000, easing: "linear"});
         $('#velocityDiv').velocity({marginLeft: 700}, {duration: 3000, easing: "linear"});  
     });
